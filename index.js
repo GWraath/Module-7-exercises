@@ -8,7 +8,7 @@ import './index.css'; //CSS importing
 // import ChangeName from './AppLab1';
 // import PostList from './PostPostList';
 // import App from './App';
-import App from './ContextApp'
+import App from './RouteExApp'
 // import OnHover from './onHover';
 
 // const root = ReactDOM.createRoot(document.getElementById('root')); //necessary to set ReactDOM as root
@@ -168,14 +168,14 @@ import App from './ContextApp'
 //   root.render(<MemoComp/>);
 
 const root = ReactDOM.createRoot(document.getElementById('root')); 
-    root.render(<App/>);
+//     root.render(<App/>);
 
-    // root.render(
-    //     // <React.StrictMode>
-    //     // <BrowserRouter>
-    //     //     <App/>
-    //     // </BrowserRouter>
-    //     // </React.StrictMode>
-    // );
+    root.render(
+        <React.StrictMode>
+        <BrowserRouter>
+            <App/>
+        </BrowserRouter>
+        </React.StrictMode>
+    );
 
 //   export default React.memo(MemoComp)
