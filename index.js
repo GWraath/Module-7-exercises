@@ -8,7 +8,8 @@ import './index.css'; //CSS importing
 // import ChangeName from './AppLab1';
 // import PostList from './PostPostList';
 // import App from './App';
-import App from './RouteExApp'
+// import App from './RouteApp'
+import App from './SocialMediaApp'
 // import OnHover from './onHover';
 
 // const root = ReactDOM.createRoot(document.getElementById('root')); //necessary to set ReactDOM as root
