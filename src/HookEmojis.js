@@ -1,10 +1,10 @@
 import React, {useContext} from 'react'
 import {EmojiContext} from './ContextApp'
-import useEmoji from './useEmoji'
+//import useEmoji from './useEmoji'
 
 export default function HookEmojis() {
     
-    const { happy, sad, mood, setMood } = React.useContext(EmojiContext);
+    const { happy, sad, mood, setMood } = useContext(EmojiContext);
 
 // export default function HookEmojis() {
     // const [mood,dispatch] = useEmoji()

@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import ComponentE from './ComponentE'
 import ComponentF from './ComponentF'
-import {UserContext, AnotherContext, CountryContext, render} from './ContextApp'
+import {UserContext, AnotherContext, CountryContext} from './ContextApp'
 
 export class ComponentC extends Component {
 	render() {

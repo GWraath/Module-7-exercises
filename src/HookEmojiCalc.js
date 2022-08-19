@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Emoji from './Emoji'
+//import Emoji from './Emoji'
 import HookCalculator from './HookCalculator'
 import HookEmojis from './HookEmojis'
 import HookClock from './HookClock'
